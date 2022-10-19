@@ -81,7 +81,6 @@ body {
   justify-content: space-between;
   margin: auto;
   gap: 10px;
-  margin-bottom: 6px;
 }
 .button {
   background-color: #000;
@@ -92,6 +91,7 @@ body {
   width: 100%;
   flex-shrink: 1;
   border-radius: 5px;
+  margin-bottom: 5px;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -108,4 +108,19 @@ body {
 }
 .button.youtube {
   background: #FF0000;
+}
+.button.hhru {
+  background: #d6001c;
+  margin-bottom: 0;
+}
+.footer {
+  text-align: center;
+}
+.text {
+  margin-top: 0px 0px 8px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.love {
+  color: red;
 }
